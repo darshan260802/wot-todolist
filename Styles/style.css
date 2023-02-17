@@ -1,4 +1,4 @@
-.content-navbar{
+.container-navbar{
     padding: 10px 0;
     display: flex;
     align-items: center;
@@ -15,4 +15,23 @@
 .logo span:last-child{
     background-color: var(--secondary);
     border-radius: 0 8px 8px 0;
+}
+
+.container-navs{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-nav-actions{
+    transform: translateX(-50%);
+}
+
+.btn-workspace{
+    background-color: var(--base);
+    color: var(--content);
+    border: 1px solid var(--content);
+    border-radius: 8px;
+    font-weight: 600;
 }
