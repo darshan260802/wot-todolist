@@ -35,3 +35,20 @@
     border-radius: 8px;
     font-weight: 600;
 }
+
+.content-list{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(60px, 30%));
+    grid-auto-rows: 100px;
+    gap: 3%;
+}
+
+.workspace-chip{
+    background-color: darkblue;
+    color: white;
+    display: grid;
+    cursor: pointer;
+    place-items: center;
+
+}
